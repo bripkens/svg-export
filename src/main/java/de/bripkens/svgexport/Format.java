@@ -16,6 +16,7 @@ import org.apache.fop.svg.PDFTranscoder;
 public enum Format {
     JPEG("image/jpeg", "jpg", JPEGTranscoder.class),
     PNG("image/png", "png", PNGTranscoder.class),
+    SVG("image/svg+xml", "svg", SVGTranscoder.class),
     TIFF("image/tiff", "tiff", TIFFTranscoder.class),
     EPS("application/postscript", "eps", EPSTranscoder.class),
 //    WMF("application/wmf", "wmf", WMFTranscoder.class),
