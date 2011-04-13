@@ -17,6 +17,7 @@ The following example shows how the library can be used to convert an SVG to
 PDF.
 
     import java.io.FileOutputStream;
+    import java.io.FileInputStream;
     import de.bripkens.svgexport.SVGExport;
     import de.bripkens.svgexport.Format;
     
