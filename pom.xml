@@ -19,6 +19,14 @@
         </contributor>
     </contributors>
 
+    <distributionManagement>
+        <downloadUrl>http://bripkens.github.com/svg-export/repository/</downloadUrl>
+        <repository>
+          <id>gh-pages</id>
+          <url>file:///${basedir}/../pages/repository/</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <source.version>1.6</source.version>
     </properties>

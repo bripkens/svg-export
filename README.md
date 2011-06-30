@@ -3,6 +3,17 @@
 A small library around the Apache Batik and Apache FOP library that
 simplifies the usage.
 
+## Maven repository
+A Maven repository has been set up on Github and can be used like every
+other Maven repository.
+
+    <repository>
+        <id>svn-export-repo</id>
+        <name>svn-export repository on GitHub</name>
+        <url>http://bripkens.github.com/svg-export/repository/</url>
+    </repository>
+
+
 ## Supported formats
 * JPEG
 * PNG
@@ -23,10 +34,10 @@ PDF.
     
     // ...
     
-    new SVGExport().setOutput(new FileOutputStream("example.pdf")).
-                    setInput(new FileInputStream("example.svg")).
-                    setFormat(Format.PDF).
-                    transcode();
+    new SVGExport().setInput(new FileInputStream("example.svg"))
+                    .setOutput(new FileOutputStream("example.pdf"))
+                    .setFormat(Format.PDF)
+                    .transcode();
     
     // ...
 
