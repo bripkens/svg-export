@@ -7,12 +7,23 @@ simplifies the usage.
 A Maven repository has been set up on Github and can be used like every
 other Maven repository.
 
+    <!-- ... -->
+
     <repository>
         <id>svn-export-repo</id>
         <name>svn-export repository on GitHub</name>
         <url>http://bripkens.github.com/svg-export/repository/</url>
     </repository>
 
+    <!-- ... -->
+
+    <dependency>
+        <groupId>de.bripkens</groupId>
+        <artifactId>svg-export</artifactId>
+        <version>0.1</version>
+    </dependency>
+    
+    <!-- ... -->
 
 ## Supported formats
 * JPEG

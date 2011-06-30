@@ -6,7 +6,7 @@
     <groupId>de.bripkens</groupId>
     <artifactId>svg-export</artifactId>
     <packaging>jar</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <name>svg-export</name>
 
     <url>https://github.com/bripkens/svg-export</url>
