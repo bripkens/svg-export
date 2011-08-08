@@ -5,9 +5,10 @@
   <versioning>
     <release>0.1</release>
     <versions>
+      <version>0.2</version>
       <version>0.1</version>
       <version>0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20110630081051</lastUpdated>
+    <lastUpdated>20110808103402</lastUpdated>
   </versioning>
 </metadata>
