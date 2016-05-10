@@ -47,7 +47,7 @@ PDF.
     
     new SVGExport().setInput(new FileInputStream("example.svg"))
                     .setOutput(new FileOutputStream("example.pdf"))
-                    .setFormat(Format.PDF)
+                    .setTranscoder(Format.PDF)
                     .transcode();
     
     // ...
